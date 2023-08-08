@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exibir.css" />
+    <title>Univiçosa</title>
+  </head>
+
+  <body>
+    <h1 align="Center">Univiçosa</h1>
+    <div class="header">
+      <h1 align="center">Opções De Cadastro</h1>
+    </div>
+    <div class="formulario">
+      <fieldset>
+        <form action="Formulario.php" method="post">
+          <!--este e o formulario contendo as opções-->
+
+          <input type="radio" name="Pessoa" value="FuncAdm" />
+          <label>Area Administrativa</label><br />
+          <input type="radio" name="Pessoa" value="FuncDocente" />
+          <label>Professor</label><br />
+          <input type="radio" name="Pessoa" value="Discente" />
+          <label>Aluno</label><br /><br />
+          <input type="submit" value="Cadastrar" />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
